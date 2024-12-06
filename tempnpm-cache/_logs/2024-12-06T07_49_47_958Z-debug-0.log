@@ -1,0 +1,135 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v22.11.0
+3 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\simrs\.npmrc
+5 silly config load:file:C:\Users\Lenovo\.npmrc
+6 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\simrs\tempnpm-cache\_logs\2024-12-06T07_49_47_958Z-
+10 verbose logfile C:\simrs\tempnpm-cache\_logs\2024-12-06T07_49_47_958Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2134900736 maxSize:533725184 maxEntrySize:266862592
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@esbuild/android-arm': [ '0.18.20' ],
+15 silly audit   '@esbuild/android-arm64': [ '0.18.20' ],
+15 silly audit   '@esbuild/android-x64': [ '0.18.20' ],
+15 silly audit   '@esbuild/darwin-arm64': [ '0.18.20' ],
+15 silly audit   '@esbuild/darwin-x64': [ '0.18.20' ],
+15 silly audit   '@esbuild/freebsd-arm64': [ '0.18.20' ],
+15 silly audit   '@esbuild/freebsd-x64': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-arm': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-arm64': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-ia32': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-loong64': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-mips64el': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-ppc64': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-riscv64': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-s390x': [ '0.18.20' ],
+15 silly audit   '@esbuild/linux-x64': [ '0.18.20' ],
+15 silly audit   '@esbuild/netbsd-x64': [ '0.18.20' ],
+15 silly audit   '@esbuild/openbsd-x64': [ '0.18.20' ],
+15 silly audit   '@esbuild/sunos-x64': [ '0.18.20' ],
+15 silly audit   '@esbuild/win32-arm64': [ '0.18.20' ],
+15 silly audit   '@esbuild/win32-ia32': [ '0.18.20' ],
+15 silly audit   '@esbuild/win32-x64': [ '0.18.20' ],
+15 silly audit   'admin-lte': [ '4.0.0-beta2' ],
+15 silly audit   asynckit: [ '0.4.0' ],
+15 silly audit   axios: [ '1.7.9' ],
+15 silly audit   'combined-stream': [ '1.0.8' ],
+15 silly audit   'delayed-stream': [ '1.0.0' ],
+15 silly audit   esbuild: [ '0.18.20' ],
+15 silly audit   'follow-redirects': [ '1.15.9' ],
+15 silly audit   'form-data': [ '4.0.1' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   'laravel-vite-plugin': [ '0.7.8' ],
+15 silly audit   lodash: [ '4.17.21' ],
+15 silly audit   'mime-db': [ '1.52.0' ],
+15 silly audit   'mime-types': [ '2.1.35' ],
+15 silly audit   nanoid: [ '3.3.8' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   picomatch: [ '2.3.1' ],
+15 silly audit   postcss: [ '8.4.49' ],
+15 silly audit   'proxy-from-env': [ '1.1.0' ],
+15 silly audit   rollup: [ '3.29.5' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   vite: [ '4.5.5' ],
+15 silly audit   'vite-plugin-full-reload': [ '1.2.0' ]
+15 silly audit }
+16 verbose reify failed optional dependency C:\simrs\node_modules\fsevents
+17 silly reify mark deleted [ 'C:\\simrs\\node_modules\\fsevents' ]
+18 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\win32-ia32
+19 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\win32-ia32' ]
+20 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\win32-arm64
+21 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\win32-arm64' ]
+22 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\sunos-x64
+23 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\sunos-x64' ]
+24 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\openbsd-x64
+25 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\openbsd-x64' ]
+26 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\netbsd-x64
+27 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\netbsd-x64' ]
+28 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-x64
+29 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-x64' ]
+30 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-s390x
+31 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-s390x' ]
+32 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-riscv64
+33 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-riscv64' ]
+34 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-ppc64
+35 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-ppc64' ]
+36 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-mips64el
+37 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-mips64el' ]
+38 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-loong64
+39 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-loong64' ]
+40 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-ia32
+41 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-ia32' ]
+42 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-arm64
+43 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-arm64' ]
+44 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-arm
+45 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-arm' ]
+46 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\freebsd-x64
+47 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\freebsd-x64' ]
+48 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\freebsd-arm64
+49 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\freebsd-arm64' ]
+50 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\darwin-x64
+51 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\darwin-x64' ]
+52 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\darwin-arm64
+53 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\darwin-arm64' ]
+54 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\android-x64
+55 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\android-x64' ]
+56 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\android-arm64
+57 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\android-arm64' ]
+58 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\android-arm
+59 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\android-arm' ]
+60 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 536ms
+61 silly audit report {}
+62 silly ADD
+63 silly ADD
+64 silly ADD
+65 silly ADD
+66 silly ADD
+67 silly ADD
+68 silly ADD
+69 silly ADD
+70 silly ADD
+71 silly ADD
+72 silly ADD
+73 silly ADD
+74 silly ADD
+75 silly ADD
+76 silly ADD
+77 silly ADD
+78 silly ADD
+79 silly ADD
+80 silly ADD
+81 silly ADD
+82 silly ADD
+83 silly ADD
+84 verbose cwd C:\simrs
+85 verbose os Windows_NT 10.0.19045
+86 verbose node v22.11.0
+87 verbose npm  v10.9.1
+88 verbose exit 0
+89 info ok

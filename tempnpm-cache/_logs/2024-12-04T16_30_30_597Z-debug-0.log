@@ -1,0 +1,482 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v22.11.0
+3 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\simrs\.npmrc
+5 silly config load:file:C:\Users\Lenovo\.npmrc
+6 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install admin-lte
+8 verbose argv "install" "admin-lte"
+9 verbose logfile logs-max:10 dir:C:\simrs\tempnpm-cache\_logs\2024-12-04T16_30_30_597Z-
+10 verbose logfile C:\simrs\tempnpm-cache\_logs\2024-12-04T16_30_30_597Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2134900736 maxSize:533725184 maxEntrySize:266862592
+13 silly idealTree buildDeps
+14 silly fetch manifest admin-lte@*
+15 silly packumentCache full:https://registry.npmjs.org/admin-lte cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 966ms
+17 http fetch GET 200 https://registry.npmjs.org/admin-lte 1493ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/admin-lte set size:undefined disposed:false
+19 silly fetch manifest axios@^1.1.2
+20 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/axios 179ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+23 silly fetch manifest laravel-vite-plugin@^0.7.2
+24 silly packumentCache full:https://registry.npmjs.org/laravel-vite-plugin cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin 140ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/laravel-vite-plugin set size:undefined disposed:false
+27 silly fetch manifest vite@^4.0.0
+28 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/vite 2223ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/vite set size:undefined disposed:false
+31 silly fetch manifest @types/node@>= 14
+32 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 588ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+35 silly fetch manifest less@*
+36 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/less 157ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/less set size:undefined disposed:false
+39 silly fetch manifest lightningcss@^1.21.0
+40 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/lightningcss 283ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:undefined disposed:false
+43 silly fetch manifest sass@*
+44 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/sass 329ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+47 silly fetch manifest stylus@*
+48 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/stylus 236ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/stylus set size:undefined disposed:false
+51 silly fetch manifest sugarss@*
+52 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/sugarss 89ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/sugarss set size:undefined disposed:false
+55 silly fetch manifest postcss@^8.1.14
+56 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/postcss 124ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/postcss set size:undefined disposed:false
+59 silly fetch manifest terser@^5.4.0
+60 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/terser 710ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/terser set size:undefined disposed:false
+63 silly fetch manifest lodash@^4.17.19
+64 silly packumentCache full:https://registry.npmjs.org/lodash cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/lodash 150ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/lodash set size:undefined disposed:false
+67 silly placeDep ROOT admin-lte@4.0.0-beta2 OK for:  want: *
+68 silly placeDep ROOT axios@1.7.9 OK for:  want: ^1.1.2
+69 silly placeDep ROOT laravel-vite-plugin@0.7.8 OK for:  want: ^0.7.2
+70 silly placeDep ROOT vite@4.5.5 OK for: laravel-vite-plugin@0.7.8 want: ^3.0.0 || ^4.0.0
+71 silly placeDep ROOT lodash@4.17.21 OK for:  want: ^4.17.19
+72 silly placeDep ROOT postcss@8.4.49 OK for:  want: ^8.1.14
+73 silly fetch manifest follow-redirects@^1.15.6
+74 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+75 silly fetch manifest form-data@^4.0.0
+76 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+77 silly fetch manifest proxy-from-env@^1.1.0
+78 silly packumentCache full:https://registry.npmjs.org/proxy-from-env cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/form-data 162ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/form-data set size:undefined disposed:false
+81 silly fetch manifest picocolors@^1.0.0
+82 silly packumentCache full:https://registry.npmjs.org/picocolors cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/follow-redirects 182ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+85 silly fetch manifest vite-plugin-full-reload@^1.0.5
+86 silly packumentCache full:https://registry.npmjs.org/vite-plugin-full-reload cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/picocolors 147ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/picocolors set size:undefined disposed:false
+89 silly fetch manifest rollup@^3.27.1
+90 silly packumentCache full:https://registry.npmjs.org/rollup cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 317ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/proxy-from-env set size:undefined disposed:false
+93 silly fetch manifest esbuild@^0.18.10
+94 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/vite-plugin-full-reload 138ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/vite-plugin-full-reload set size:undefined disposed:false
+97 silly fetch manifest postcss@^8.4.27
+98 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+99 http cache https://registry.npmjs.org/postcss 130ms (cache hit)
+100 silly packumentCache full:https://registry.npmjs.org/postcss set size:675229 disposed:false
+101 silly fetch manifest fsevents@~2.3.2
+102 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/fsevents 148ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+105 silly fetch manifest nanoid@^3.3.7
+106 silly packumentCache full:https://registry.npmjs.org/nanoid cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/rollup 558ms (cache miss)
+108 silly packumentCache full:https://registry.npmjs.org/rollup set size:undefined disposed:false
+109 silly fetch manifest picocolors@^1.1.1
+110 silly packumentCache full:https://registry.npmjs.org/picocolors cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/esbuild 673ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+113 silly fetch manifest source-map-js@^1.2.1
+114 silly packumentCache full:https://registry.npmjs.org/source-map-js cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/nanoid 404ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+117 http cache https://registry.npmjs.org/picocolors 50ms (cache hit)
+118 silly packumentCache full:https://registry.npmjs.org/picocolors set size:16648 disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/source-map-js 457ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/source-map-js set size:undefined disposed:false
+121 silly placeDep ROOT follow-redirects@1.15.9 OK for: axios@1.7.9 want: ^1.15.6
+122 silly placeDep ROOT form-data@4.0.1 OK for: axios@1.7.9 want: ^4.0.0
+123 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.7.9 want: ^1.1.0
+124 silly fetch manifest asynckit@^0.4.0
+125 silly packumentCache full:https://registry.npmjs.org/asynckit cache-miss
+126 silly fetch manifest combined-stream@^1.0.8
+127 silly packumentCache full:https://registry.npmjs.org/combined-stream cache-miss
+128 silly fetch manifest mime-types@^2.1.12
+129 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/combined-stream 104ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/combined-stream set size:undefined disposed:false
+132 http fetch GET 200 https://registry.npmjs.org/mime-types 205ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/mime-types set size:undefined disposed:false
+134 http fetch GET 200 https://registry.npmjs.org/asynckit 257ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/asynckit set size:undefined disposed:false
+136 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.1 want: ^0.4.0
+137 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.1 want: ^1.0.8
+138 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.1 want: ^2.1.12
+139 silly fetch manifest delayed-stream@~1.0.0
+140 silly packumentCache full:https://registry.npmjs.org/delayed-stream cache-miss
+141 silly fetch manifest mime-db@1.52.0
+142 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/delayed-stream 74ms (cache miss)
+144 silly packumentCache full:https://registry.npmjs.org/delayed-stream set size:undefined disposed:false
+145 http fetch GET 200 https://registry.npmjs.org/mime-db 269ms (cache miss)
+146 silly packumentCache full:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+147 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+148 silly placeDep ROOT picocolors@1.1.1 OK for: laravel-vite-plugin@0.7.8 want: ^1.0.0
+149 silly placeDep ROOT vite-plugin-full-reload@1.2.0 OK for: laravel-vite-plugin@0.7.8 want: ^1.0.5
+150 silly fetch manifest picomatch@^2.3.1
+151 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/picomatch 116ms (cache miss)
+153 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+154 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+155 silly placeDep ROOT nanoid@3.3.8 OK for: postcss@8.4.49 want: ^3.3.7
+156 silly placeDep ROOT source-map-js@1.2.1 OK for: postcss@8.4.49 want: ^1.2.1
+157 silly placeDep ROOT esbuild@0.18.20 OK for: vite@4.5.5 want: ^0.18.10
+158 silly placeDep ROOT fsevents@2.3.3 OK for: vite@4.5.5 want: ~2.3.2
+159 silly placeDep ROOT rollup@3.29.5 OK for: vite@4.5.5 want: ^3.27.1
+160 silly fetch manifest @esbuild/linux-arm@0.18.20
+161 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm cache-miss
+162 silly fetch manifest @esbuild/linux-x64@0.18.20
+163 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 cache-miss
+164 silly fetch manifest @esbuild/sunos-x64@0.18.20
+165 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 507ms (cache miss)
+167 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 set size:undefined disposed:false
+168 silly fetch manifest @esbuild/win32-x64@0.18.20
+169 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 574ms (cache miss)
+171 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm set size:undefined disposed:false
+172 silly fetch manifest @esbuild/darwin-x64@0.18.20
+173 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 cache-miss
+174 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 620ms (cache miss)
+175 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 set size:undefined disposed:false
+176 silly fetch manifest @esbuild/linux-ia32@0.18.20
+177 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 11291ms (cache miss)
+179 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 set size:undefined disposed:false
+180 silly fetch manifest @esbuild/netbsd-x64@0.18.20
+181 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 cache-miss
+182 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 11585ms (cache miss)
+183 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 set size:undefined disposed:false
+184 silly fetch manifest @esbuild/win32-ia32@0.18.20
+185 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 861ms (cache miss)
+187 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 set size:undefined disposed:false
+188 silly fetch manifest @esbuild/android-arm@0.18.20
+189 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm cache-miss
+190 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 12065ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 set size:undefined disposed:false
+192 silly fetch manifest @esbuild/android-x64@0.18.20
+193 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 557ms (cache miss)
+195 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 set size:undefined disposed:false
+196 silly fetch manifest @esbuild/freebsd-x64@0.18.20
+197 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 133ms (cache miss)
+199 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 set size:undefined disposed:false
+200 silly fetch manifest @esbuild/linux-arm64@0.18.20
+201 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 cache-miss
+202 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 134ms (cache miss)
+203 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 set size:undefined disposed:false
+204 silly fetch manifest @esbuild/linux-ppc64@0.18.20
+205 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 cache-miss
+206 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 313ms (cache miss)
+207 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 set size:undefined disposed:false
+208 silly fetch manifest @esbuild/linux-s390x@0.18.20
+209 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x cache-miss
+210 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 330ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 set size:undefined disposed:false
+212 silly fetch manifest @esbuild/openbsd-x64@0.18.20
+213 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 cache-miss
+214 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 376ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x set size:undefined disposed:false
+216 silly fetch manifest @esbuild/win32-arm64@0.18.20
+217 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 cache-miss
+218 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 143ms (cache miss)
+219 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 set size:undefined disposed:false
+220 silly fetch manifest @esbuild/darwin-arm64@0.18.20
+221 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 cache-miss
+222 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 801ms (cache miss)
+223 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm set size:undefined disposed:false
+224 silly fetch manifest @esbuild/android-arm64@0.18.20
+225 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 cache-miss
+226 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 352ms (cache miss)
+227 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 set size:undefined disposed:false
+228 silly fetch manifest @esbuild/freebsd-arm64@0.18.20
+229 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 cache-miss
+230 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 346ms (cache miss)
+231 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 set size:undefined disposed:false
+232 silly fetch manifest @esbuild/linux-loong64@0.18.20
+233 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 cache-miss
+234 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 377ms (cache miss)
+235 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 set size:undefined disposed:false
+236 silly fetch manifest @esbuild/linux-riscv64@0.18.20
+237 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 cache-miss
+238 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 135ms (cache miss)
+239 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 set size:undefined disposed:false
+240 silly fetch manifest @esbuild/linux-mips64el@0.18.20
+241 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el cache-miss
+242 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 124ms (cache miss)
+243 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 set size:undefined disposed:false
+244 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 145ms (cache miss)
+245 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 set size:undefined disposed:false
+246 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 149ms (cache miss)
+247 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el set size:undefined disposed:false
+248 silly placeDep ROOT @esbuild/android-arm@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+249 silly placeDep ROOT @esbuild/android-arm64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+250 silly placeDep ROOT @esbuild/android-x64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+251 silly placeDep ROOT @esbuild/darwin-arm64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+252 silly placeDep ROOT @esbuild/darwin-x64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+253 silly placeDep ROOT @esbuild/freebsd-arm64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+254 silly placeDep ROOT @esbuild/freebsd-x64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+255 silly placeDep ROOT @esbuild/linux-arm@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+256 silly placeDep ROOT @esbuild/linux-arm64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+257 silly placeDep ROOT @esbuild/linux-ia32@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+258 silly placeDep ROOT @esbuild/linux-loong64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+259 silly placeDep ROOT @esbuild/linux-mips64el@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+260 silly placeDep ROOT @esbuild/linux-ppc64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+261 silly placeDep ROOT @esbuild/linux-riscv64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+262 silly placeDep ROOT @esbuild/linux-s390x@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+263 silly placeDep ROOT @esbuild/linux-x64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+264 silly placeDep ROOT @esbuild/netbsd-x64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+265 silly placeDep ROOT @esbuild/openbsd-x64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+266 silly placeDep ROOT @esbuild/sunos-x64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+267 silly placeDep ROOT @esbuild/win32-arm64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+268 silly placeDep ROOT @esbuild/win32-ia32@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+269 silly placeDep ROOT @esbuild/win32-x64@0.18.20 OK for: esbuild@0.18.20 want: 0.18.20
+270 silly placeDep ROOT picomatch@2.3.1 OK for: vite-plugin-full-reload@1.2.0 want: ^2.3.1
+271 silly reify moves {}
+272 silly audit bulk request {
+272 silly audit   'admin-lte': [ '4.0.0-beta2' ],
+272 silly audit   axios: [ '1.7.9' ],
+272 silly audit   'laravel-vite-plugin': [ '0.7.8' ],
+272 silly audit   vite: [ '4.5.5' ],
+272 silly audit   lodash: [ '4.17.21' ],
+272 silly audit   postcss: [ '8.4.49' ],
+272 silly audit   'follow-redirects': [ '1.15.9' ],
+272 silly audit   'form-data': [ '4.0.1' ],
+272 silly audit   'proxy-from-env': [ '1.1.0' ],
+272 silly audit   asynckit: [ '0.4.0' ],
+272 silly audit   'combined-stream': [ '1.0.8' ],
+272 silly audit   'mime-types': [ '2.1.35' ],
+272 silly audit   'delayed-stream': [ '1.0.0' ],
+272 silly audit   picocolors: [ '1.1.1' ],
+272 silly audit   'vite-plugin-full-reload': [ '1.2.0' ],
+272 silly audit   'mime-db': [ '1.52.0' ],
+272 silly audit   nanoid: [ '3.3.8' ],
+272 silly audit   'source-map-js': [ '1.2.1' ],
+272 silly audit   esbuild: [ '0.18.20' ],
+272 silly audit   fsevents: [ '2.3.3' ],
+272 silly audit   rollup: [ '3.29.5' ],
+272 silly audit   '@esbuild/android-arm': [ '0.18.20' ],
+272 silly audit   '@esbuild/android-arm64': [ '0.18.20' ],
+272 silly audit   '@esbuild/android-x64': [ '0.18.20' ],
+272 silly audit   '@esbuild/darwin-arm64': [ '0.18.20' ],
+272 silly audit   '@esbuild/darwin-x64': [ '0.18.20' ],
+272 silly audit   '@esbuild/freebsd-arm64': [ '0.18.20' ],
+272 silly audit   '@esbuild/freebsd-x64': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-arm': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-arm64': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-ia32': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-loong64': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-mips64el': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-ppc64': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-riscv64': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-s390x': [ '0.18.20' ],
+272 silly audit   '@esbuild/linux-x64': [ '0.18.20' ],
+272 silly audit   '@esbuild/netbsd-x64': [ '0.18.20' ],
+272 silly audit   '@esbuild/openbsd-x64': [ '0.18.20' ],
+272 silly audit   '@esbuild/sunos-x64': [ '0.18.20' ],
+272 silly audit   '@esbuild/win32-arm64': [ '0.18.20' ],
+272 silly audit   '@esbuild/win32-ia32': [ '0.18.20' ],
+272 silly audit   '@esbuild/win32-x64': [ '0.18.20' ],
+272 silly audit   picomatch: [ '2.3.1' ]
+272 silly audit }
+273 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\win32-ia32
+274 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\win32-ia32' ]
+275 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\win32-arm64
+276 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\win32-arm64' ]
+277 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\sunos-x64
+278 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\sunos-x64' ]
+279 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\openbsd-x64
+280 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\openbsd-x64' ]
+281 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\netbsd-x64
+282 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\netbsd-x64' ]
+283 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-x64
+284 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-x64' ]
+285 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-s390x
+286 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-s390x' ]
+287 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-riscv64
+288 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-riscv64' ]
+289 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-ppc64
+290 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-ppc64' ]
+291 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-mips64el
+292 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-mips64el' ]
+293 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-loong64
+294 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-loong64' ]
+295 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-ia32
+296 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-ia32' ]
+297 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-arm64
+298 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-arm64' ]
+299 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\linux-arm
+300 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\linux-arm' ]
+301 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\freebsd-x64
+302 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\freebsd-x64' ]
+303 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\freebsd-arm64
+304 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\freebsd-arm64' ]
+305 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\darwin-x64
+306 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\darwin-x64' ]
+307 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\darwin-arm64
+308 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\darwin-arm64' ]
+309 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\android-x64
+310 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\android-x64' ]
+311 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\android-arm64
+312 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\android-arm64' ]
+313 verbose reify failed optional dependency C:\simrs\node_modules\@esbuild\android-arm
+314 silly reify mark deleted [ 'C:\\simrs\\node_modules\\@esbuild\\android-arm' ]
+315 verbose reify failed optional dependency C:\simrs\node_modules\fsevents
+316 silly reify mark deleted [ 'C:\\simrs\\node_modules\\fsevents' ]
+317 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 0ms (cache hit)
+318 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-3.29.5.tgz 0ms (cache hit)
+319 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz 0ms (cache hit)
+320 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.18.20.tgz 0ms (cache hit)
+321 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+322 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+323 http cache vite-plugin-full-reload@https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.2.0.tgz 0ms (cache hit)
+324 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+325 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.8.tgz 0ms (cache hit)
+326 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+327 http cache combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+328 http cache delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+329 http cache asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+330 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.1.tgz 0ms (cache hit)
+331 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.49.tgz 0ms (cache hit)
+332 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 0ms (cache hit)
+333 http cache proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 1ms (cache hit)
+334 http cache vite@https://registry.npmjs.org/vite/-/vite-4.5.5.tgz 0ms (cache hit)
+335 http cache laravel-vite-plugin@https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.7.8.tgz 0ms (cache hit)
+336 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz 0ms (cache hit)
+337 http cache axios@https://registry.npmjs.org/axios/-/axios-1.7.9.tgz 0ms (cache hit)
+338 http cache admin-lte@https://registry.npmjs.org/admin-lte/-/admin-lte-4.0.0-beta2.tgz 0ms (cache hit)
+339 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+340 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-3.29.5.tgz. Extracting by manifest.
+341 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+342 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+343 silly tarball no local data for vite-plugin-full-reload@https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.2.0.tgz. Extracting by manifest.
+344 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+345 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.8.tgz. Extracting by manifest.
+346 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+347 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+348 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+349 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+350 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.1.tgz. Extracting by manifest.
+351 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.49.tgz. Extracting by manifest.
+352 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz. Extracting by manifest.
+353 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+354 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-4.5.5.tgz. Extracting by manifest.
+355 silly tarball no local data for laravel-vite-plugin@https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.7.8.tgz. Extracting by manifest.
+356 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz. Extracting by manifest.
+357 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.7.9.tgz. Extracting by manifest.
+358 silly tarball no local data for admin-lte@https://registry.npmjs.org/admin-lte/-/admin-lte-4.0.0-beta2.tgz. Extracting by manifest.
+359 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.18.20.tgz. Extracting by manifest.
+360 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz. Extracting by manifest.
+361 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 295ms (cache miss)
+362 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 391ms
+363 silly audit report {}
+364 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 637ms (cache miss)
+365 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 1043ms (cache miss)
+366 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz 1041ms (cache miss)
+367 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 1533ms (cache miss)
+368 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 1753ms (cache miss)
+369 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 1783ms (cache miss)
+370 http fetch GET 200 https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.2.0.tgz 1889ms (cache miss)
+371 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.7.8.tgz 1913ms (cache miss)
+372 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 1970ms (cache miss)
+373 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.1.tgz 2101ms (cache miss)
+374 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.18.20.tgz 2863ms (cache miss)
+375 http fetch GET 200 https://registry.npmjs.org/rollup/-/rollup-3.29.5.tgz 2910ms (cache miss)
+376 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 2927ms (cache miss)
+377 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 3052ms (cache miss)
+378 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.8.tgz 3277ms (cache miss)
+379 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.49.tgz 4062ms (cache miss)
+380 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-4.5.5.tgz 4855ms (cache miss)
+381 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz 4848ms (cache miss)
+382 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.7.9.tgz 6555ms (cache miss)
+383 http fetch GET 200 https://registry.npmjs.org/admin-lte/-/admin-lte-4.0.0-beta2.tgz 9166ms (cache miss)
+384 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 23135ms (cache miss)
+385 info run esbuild@0.18.20 postinstall node_modules/esbuild node install.js
+386 info run esbuild@0.18.20 postinstall { code: 0, signal: null }
+387 silly ADD node_modules/picomatch
+388 silly ADD node_modules/@esbuild/win32-x64
+389 silly ADD
+390 silly ADD
+391 silly ADD
+392 silly ADD
+393 silly ADD
+394 silly ADD
+395 silly ADD
+396 silly ADD
+397 silly ADD
+398 silly ADD
+399 silly ADD
+400 silly ADD
+401 silly ADD
+402 silly ADD
+403 silly ADD
+404 silly ADD
+405 silly ADD
+406 silly ADD
+407 silly ADD
+408 silly ADD
+409 silly ADD
+410 silly ADD node_modules/rollup
+411 silly ADD
+412 silly ADD node_modules/esbuild
+413 silly ADD node_modules/source-map-js
+414 silly ADD node_modules/nanoid
+415 silly ADD node_modules/mime-db
+416 silly ADD node_modules/vite-plugin-full-reload
+417 silly ADD node_modules/picocolors
+418 silly ADD node_modules/delayed-stream
+419 silly ADD node_modules/mime-types
+420 silly ADD node_modules/combined-stream
+421 silly ADD node_modules/asynckit
+422 silly ADD node_modules/proxy-from-env
+423 silly ADD node_modules/form-data
+424 silly ADD node_modules/follow-redirects
+425 silly ADD node_modules/postcss
+426 silly ADD node_modules/lodash
+427 silly ADD node_modules/vite
+428 silly ADD node_modules/laravel-vite-plugin
+429 silly ADD node_modules/axios
+430 silly ADD node_modules/admin-lte
+431 verbose cwd C:\simrs
+432 verbose os Windows_NT 10.0.19045
+433 verbose node v22.11.0
+434 verbose npm  v10.9.1
+435 verbose exit 0
+436 info ok
